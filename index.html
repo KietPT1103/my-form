@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assignment_1/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <table class="container">
+        <tr class="first">
+          <th class="logo">
+            <img src="/assignment_1/img/logo.jpg" alt="logo" />
+          </th>
+          <th class="activity">
+            <h2><strong>Activity</strong></h2>
+            <ol>
+              <li class="father">
+                Activity 01
+                <ul>
+                  <li>Location: Green Park</li>
+                  <li>Time: 1<sup>st</sup> March</li>
+                  <li>
+                    Register via link: <a href="#">English Club's Website</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="father">
+                Activity 02
+                <ul>
+                  <li>Location: Wine Lake</li>
+                  <li>Time: 3<sup>rd</sup> April</li>
+                  <li>
+                    Register via link: <a href="#">English Club's Website</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="father">
+                Activity 03
+                <ul>
+                  <li>Location: Local Park</li>
+                  <li>Time: 7<sup>th</sup> May</li>
+                  <li>
+                    Register via link: <a href="#">English Club's Website</a>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </th>
+        </tr>
+        <tr class="second">
+          <td colspan="2"><h2>You can do it - We can help!</h2></td>
+        </tr>
+        <tr class="third">
+          <td colspan="2">
+            <h1>member registration form</h1>
+            <table class="info-table">
+              <tr class="email-input">
+                <th class="info-label">
+                  <label for="email">Email:</label>
+                </th>
+                <th>
+                  <input
+                    placeholder="Please input your email"
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </th>
+              </tr>
+              <tr>
+                <th class="info-label">
+                  <label for="fullname">Full name:</label>
+                </th>
+                <th>
+                  <input
+                    placeholder="Please input your full name"
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    required
+                  />
+                </th>
+              </tr>
+              <tr>
+                <th class="info-label">
+                  <label for="gender">Gender:</label>
+                </th>
+                <th class="display-flex">
+                  <label class="display-flex">
+                    <input type="radio" name="gender" value="male" required />
+                    Male
+                  </label>
+                  <label class="display-flex">
+                    <input type="radio" name="gender" value="female" required />
+                    Female
+                  </label>
+                </th>
+              </tr>
+              <tr>
+                <th class="info-label">
+                  <label for="country">Country:</label>
+                </th>
+                <th class="country-input">
+                  <select id="country" name="country" required>
+                    <option value="USA">Vietnam</option>
+                    <option value="UK">Thailand</option>
+                    <option value="France">USA</option>
+                    <option value="Germany">Australia</option>
+                  </select>
+                </th>
+              </tr>
+              <tr>
+                <th class="info-label">
+                  <label for="hobby">Hobby:</label>
+                </th>
+                <th class="hobby-input">
+                  <label>
+                    <input type="checkbox" name="hobby" value="reading" />
+                    Travelling
+                  </label>
+                  <label>
+                    <input type="checkbox" name="hobby" value="painting" />
+                    Shopping
+                  </label>
+                  <label>
+                    <input type="checkbox" name="hobby" value="playing_music" />
+                    Reading
+                  </label>
+                </th>
+              </tr>
+              <tr class="introduction-input">
+                <th class="info-label">
+                  <label for="introduction">Introduction:</label>
+                </th>
+                <th>
+                  <textarea
+                    placeholder="Please introduce yourself briefly!"
+                    rows="4"
+                    id="introduction"
+                    name="introduction"
+                  ></textarea>
+                </th>
+              </tr>
+              <tr>
+                <th class="info-label">
+                  <label for="photo">Upload Photo:</label>
+                </th>
+                <th>
+                  <input type="file" id="photo" name="photo" />
+                </th>
+              </tr>
+            </table>
+            <table class="pass-info-table">
+              <tr>
+                <th class="info-label">
+                  <label for="password">Password:</label>
+                </th>
+                <th class="password-input">
+                  <input
+                    placeholder="Please enter password"
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                </th>
+              </tr>
+              <tr>
+                <th class="info-label">
+                  <label for="re-password">Re-enter password:</label>
+                </th>
+                <th class="password-input">
+                  <input
+                    placeholder="Please re-enter password"
+                    type="password"
+                    id="re-password"
+                    name="re-password"
+                    required
+                  />
+                </th>
+              </tr>
+            </table>
+            <div class="submit">
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2"><p>Register R with Protected Right!</p></th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

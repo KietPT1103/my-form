@@ -1,0 +1,100 @@
+.container{
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ol {
+  text-align: left;
+}
+
+.activity {
+  padding-right: 16px;
+}
+
+tr.second {
+  text-align: center;
+}
+
+tr.third {
+  text-align: center;
+}
+
+.third h1 {
+  margin: 16px auto;
+  width: 85%;
+}
+
+.info-table {
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  border-bottom: solid 1px #9c9c9c;
+  border-top: solid 1px #9c9c9c;
+}
+.pass-info-table{
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.info-table th,
+.info-table td,
+.pass-info-table th,
+.pass-info-table td {
+  border: none;
+  outline: none;
+}
+
+.info-table input {
+  width: 95%;
+}
+
+.info-label {
+  width: 20%;
+  text-align: right;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.country-input{
+    text-align: left;
+}
+.country-input select{
+    margin-left: 10px;
+}
+
+.hobby-input {
+  text-align: left;
+}
+
+.hobby-input input {
+  width: auto;
+}
+
+.introduction-input textarea {
+  width: 95%;
+}
+
+.password-input{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.submit{
+    border-top: solid 1px #9c9c9c;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
